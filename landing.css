@@ -145,3 +145,21 @@ body {
     font-weight: 700;
     text-align: end;
 }
+
+.layer4 {
+    width: 65%;
+    border: 50px solid white;
+    margin: 0 auto 0 auto;
+}
+
+.call2action {
+    background-color: #3882F6;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.call2action > div > div > button {
+    border: 1px solid white;
+    border-radius: 10px;
+}
