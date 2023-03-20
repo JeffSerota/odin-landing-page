@@ -118,6 +118,7 @@ body {
 
 * {
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
 
 }
 
@@ -157,9 +158,42 @@ body {
     margin: 0 auto 0 auto;
     padding: 20px;
     border-radius: 10px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
 }
 
-.call2action > div > div > button {
+.c2abutton > div > button {
     border: 1px solid white;
     border-radius: 10px;
 }
+
+[class^="layer"] {
+    padding-top: 20px;
+}
+
+.layer5 {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB
+}
+
+.c2atext {
+    flex: 3;
+}
+
+.c2atext > p:first-of-type{
+    font-size: larger;
+    font-weight: 800;
+}
+
+.c2abutton {
+    flex: 1;
+}
+
+
+.call2action *:not(button){
+    margin: 0;
+    padding: 0;
+}
+
