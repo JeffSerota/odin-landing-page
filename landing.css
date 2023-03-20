@@ -1,0 +1,23 @@
+.body {
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-logo {
+    justify-items: left;
+    font-size: 24px;
+    padding: 1vw;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    padding: 1vw;
+    gap: 8px;
+}
